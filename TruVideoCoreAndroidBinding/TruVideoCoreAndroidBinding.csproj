@@ -1,0 +1,220 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <Version>0.0.1</Version>
+        <TargetFramework>net8.0-android</TargetFramework>
+        <SupportedOSPlatformVersion>24</SupportedOSPlatformVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <IsBindingProject>true</IsBindingProject>
+        <RepositoryUrl>https://github.com/Truvideo/truvideo-sdk-core-android-net</RepositoryUrl>
+        <!--
+          Enable trim analyzers for Android class libraries.
+          To learn more, see: https://learn.microsoft.com/dotnet/core/deploying/trimming/prepare-libraries-for-trimming
+        -->
+        <IsTrimmable>true</IsTrimmable>
+        <!--
+          NOTE: you can simply add .aar or .jar files in this directory to be included in the project.
+          To learn more, see: https://learn.microsoft.com/dotnet/maui/migration/android-binding-projects
+        -->
+        <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">24.0</SupportedOSPlatformVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <NLIGradleProjectReference Include="../TruVideoCoreAndroid" >
+            <ModuleName>TruvideoCore</ModuleName>
+            <!-- Metadata applicable to @(AndroidLibrary) will be used if set, otherwise the following defaults will be used:
+            <Bind>true</Bind>
+            <Pack>true</Pack>
+            -->
+        </NLIGradleProjectReference>
+    </ItemGroup>
+
+    <!--    Core Module Jar/aar-->
+    <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Maui.NativeLibraryInterop.BuildTasks" Version="0.0.1-pre1" />
+        <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+        <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+    </ItemGroup>
+
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs\truvideo-sdk-android-core-76.2.5.aar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\shared-release.aar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\kaverit-jvm-2.8.1.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\kodein-di-jvm-7.21.1.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\multiplatform-settings-debug.aar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\slf4j-android-1.7.36.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\kotlinx-serialization-json-jvm-1.6.0.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\ktor-client-okhttp-jvm-2.3.10.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\ktor-client-logging-jvm-2.3.2.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\ktor-events-jvm-2.3.10.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\ktor-http-jvm-2.3.10.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\ktor-io-jvm-2.3.10.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\ktor-serialization-jvm-2.3.10.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\ktor-utils-jvm-2.3.10.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\ktor-client-core-jvm-2.3.10.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\slf4j-api-1.7.36.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\kotlinx-datetime-jvm-0.4.1.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\kotlinx-serialization-core-jvm-1.6.0.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\okhttp-4.12.0.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\okio-jvm-3.7.0.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\aws-android-sdk-auth-core-2.16.6.aar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\aws-android-sdk-cognito-2.16.6.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\aws-android-sdk-cognitoidentityprovider-2.16.6.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\aws-android-sdk-cognitoidentityprovider-asf-1.0.0.jar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\aws-android-sdk-core-2.44.0.aar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\aws-android-sdk-kms-2.44.0.aar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\aws-android-sdk-mobile-client-2.16.6.aar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+        <AndroidLibrary Include="..\TruVideoCoreAndroid/TruvideoCore/libs\aws-android-sdk-s3-2.44.0.aar">
+            <Bind>false</Bind>
+            <Visible>false</Visible>
+        </AndroidLibrary>
+    </ItemGroup>
+
+    <!--    Core Module Jar/aar-->
+
+
+    <!-- Reference to NuGet for building bindings -->
+<!--    <ItemGroup>-->
+<!--        <PackageReference Include="CommunityToolkit.Maui.NativeLibraryInterop.BuildTasks" Version="0.0.1-pre1" />-->
+<!--    </ItemGroup>-->
+</Project>

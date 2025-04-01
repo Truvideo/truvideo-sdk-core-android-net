@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.truvideo.core.TruvideoCore-release-47:/layout-v26/abc_screen_toolbar.xml",
+        "source": "com.truvideo.core.TruvideoCore-appcompat-1.7.0-35:/layout-v26/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "com.truvideo.core.TruvideoCore-release-47:/layout-v26/mtrl_calendar_month.xml",
+        "source": "com.truvideo.core.TruvideoCore-material-1.12.0-29:/layout-v26/mtrl_calendar_month.xml"
+    }
+]

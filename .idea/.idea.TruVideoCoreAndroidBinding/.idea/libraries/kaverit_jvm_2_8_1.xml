@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="kaverit-jvm-2.8.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TruvideoCoreAndroid/TruvideoCore/libs/kaverit-jvm-2.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
