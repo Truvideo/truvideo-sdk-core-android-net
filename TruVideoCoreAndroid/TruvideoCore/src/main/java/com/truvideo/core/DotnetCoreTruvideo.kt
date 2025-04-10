@@ -18,6 +18,24 @@ class DotnetCoreTruvideo {
     companion object {
 
         @JvmStatic
+        fun environment(callback: CoreCallback) {
+            val environment = TruvideoSdk.environment
+            callback.onSuccess("" + environment)
+        }
+
+        @JvmStatic
+        fun version(callback: CoreCallback) {
+            val version = TruvideoSdk.version
+            callback.onSuccess("" + version)
+        }
+
+        @JvmStatic
+        fun getApiKey(callback: CoreCallback) {
+            val apiKey = TruvideoSdk.getApiKey()
+            callback.onSuccess("" + apiKey)
+        }
+
+        @JvmStatic
         fun initAppInitializer(context: Context, callback: CoreCallback) {
             GlobalScope.launch(Dispatchers.Main) {
                 AppInitializer.getInstance(context.applicationContext)
@@ -83,37 +101,11 @@ class DotnetCoreTruvideo {
             })
         }
 
-        @JvmStatic
-        fun toSha256String(secret: String, payload: String, callback: CoreCallback) {
-            try {
-                // getting instance of Message Authentication Code
-                val hmacSha256 = Mac.getInstance("HmacSHA256")
-                //secretKey
-                val secretKey = SecretKeySpec(secret.toByteArray(), "HmacSHA256")
-                hmacSha256.init(secretKey)
-                val macData = hmacSha256.doFinal(payload.toByteArray())
-                // Convert byte array to hex string
-                val hexString = StringBuilder()
-                for (b in macData) {
-                    val hex = Integer.toHexString(0xff and b.toInt())
-                    if (hex.length == 1) {
-                        hexString.append('0')
-                    }
-                    hexString.append(hex)
-                }
-                callback.onSuccess(hexString.toString())
-            } catch (e: NoSuchAlgorithmException) {
-                e.printStackTrace()
-                callback.onFailure(e.toString())
-            } catch (e: InvalidKeyException) {
-                e.printStackTrace()
-                callback.onFailure(e.toString())
-            }
-        }
 
         @JvmStatic
-        fun clearAuthentication() {
-            TruvideoSdk.clearAuthentication()
+        fun clearAuthentication(callback: CoreCallback) {
+            val clearAuthentication = TruvideoSdk.clearAuthentication()
+            callback.onSuccess("Authentication Clear")
         }
     }
 
