@@ -7,106 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af8b2aa-1b2d-4bfe-b81b-4b27f2700898" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/intermediates/incremental/release/mergeReleaseResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/intermediates/incremental/release/mergeReleaseResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/intermediates/incremental/release/packageReleaseResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/intermediates/incremental/release/packageReleaseResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/kotlin/compileReleaseKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/kotlin/compileReleaseKotlin/cacheable/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/kotlin/compileReleaseKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/kotlin/compileReleaseKotlin/local-state/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/activity-1.9.3.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/activity-compose-1.9.3.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/activity-ktx-1.9.3.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/annotation-experimental-1.4.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/annotation-jvm-1.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/annotations-23.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/appcompat-1.2.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/appcompat-resources-1.2.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/autofill-1.0.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/aws-android-sdk-auth-core-2.16.6.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/aws-android-sdk-cognito-2.16.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/aws-android-sdk-cognitoidentityprovider-2.16.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/aws-android-sdk-cognitoidentityprovider-asf-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/aws-android-sdk-core-2.44.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/aws-android-sdk-kms-2.44.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/aws-android-sdk-mobile-client-2.16.6.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/aws-android-sdk-s3-2.44.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/collection-1.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/concurrent-futures-1.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/core-1.13.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/core-common-2.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/core-ktx-1.13.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/core-runtime-2.2.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/cursoradapter-1.0.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/customview-1.0.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/drawerlayout-1.0.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/fragment-1.1.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/gson-2.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/hamcrest-core-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/interpolator-1.0.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/junit-4.13.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/kaverit-jvm-2.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/kermit-core-jvm-2.0.0-RC5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/kermit-jvm-2.0.0-RC5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/kodein-di-jvm-7.21.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/kotlin-stdlib-1.9.21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/kotlin-stdlib-jdk7-1.9.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/kotlin-stdlib-jdk8-1.9.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/kotlin-test-1.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/kotlin-test-junit-1.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/kotlinx-collections-immutable-jvm-0.3.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/kotlinx-coroutines-android-1.7.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/kotlinx-coroutines-core-jvm-1.7.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/kotlinx-coroutines-jdk8-1.7.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/kotlinx-coroutines-slf4j-1.7.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/kotlinx-datetime-jvm-0.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/kotlinx-serialization-core-jvm-1.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/kotlinx-serialization-json-jvm-1.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/ktor-client-core-jvm-2.3.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/ktor-client-logging-jvm-2.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/ktor-client-okhttp-jvm-2.3.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/ktor-events-jvm-2.3.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/ktor-http-jvm-2.3.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/ktor-io-jvm-2.3.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/ktor-serialization-jvm-2.3.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/ktor-utils-jvm-2.3.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/ktor-websocket-serialization-jvm-2.3.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/ktor-websockets-jvm-2.3.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/lifecycle-common-2.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/lifecycle-common-java8-2.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/lifecycle-livedata-2.6.2.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/lifecycle-livedata-core-2.6.2.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/lifecycle-runtime-2.6.2.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/lifecycle-runtime-ktx-2.6.2.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/lifecycle-viewmodel-2.6.2.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/lifecycle-viewmodel-ktx-2.6.2.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/lifecycle-viewmodel-savedstate-2.6.2.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/listenablefuture-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/loader-1.0.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/multiplatform-settings-jvm-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/okhttp-4.12.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/okio-jvm-3.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/profileinstaller-1.3.1.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/runtime-1.0.1.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/runtime-saveable-1.0.1.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/savedstate-1.2.1.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/savedstate-ktx-1.2.1.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/slf4j-api-1.7.36.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/startup-runtime-1.2.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/support-annotations-27.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/tracing-1.0.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/truvideo-sdk-android-common-0.0.76.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/truvideo-sdk-android-core-76.2.5.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/ui-1.0.1.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/ui-geometry-1.0.1.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/ui-graphics-1.0.1.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/ui-text-1.0.1.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/ui-unit-1.0.1.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/ui-util-1.0.1.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/vectordrawable-1.1.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/vectordrawable-animated-1.1.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/versionedparcelable-1.1.1.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/viewbinding-8.1.1.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/bin/Release/net8.0-android/outputs/deps/viewpager-1.0.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/build.gradle.kts" afterDir="false" />
+    <list default="true" id="0af8b2aa-1b2d-4bfe-b81b-4b27f2700898" name="Changes" comment="some changes">
       <change beforePath="$PROJECT_DIR$/TruVideoCoreAndroidBinding/TruVideoCoreAndroidBinding.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TruVideoCoreAndroidBinding/TruVideoCoreAndroidBinding.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="prod_v0.0.1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -148,21 +49,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Android.TruVideoCoreAndroidBinding.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;prod__v0.0.1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSettingsPageId&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android.TruVideoCoreAndroidBinding.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "prod__v0.0.2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "AndroidSettingsPageId",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="TruVideoCoreAndroidBinding" type="XamarinAndroidProject" factoryName="Xamarin.Android">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/TruVideoCoreAndroidBinding/TruVideoCoreAndroidBinding.csproj" />
@@ -197,6 +98,7 @@
       <workItem from="1753356124645" duration="2799000" />
       <workItem from="1753423591429" duration="7951000" />
       <workItem from="1754307588267" duration="7642000" />
+      <workItem from="1755099962428" duration="443000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit in core module binding">
       <option name="closed" value="true" />
@@ -222,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744284362780</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1755100183855</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755100183855</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +144,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit in core module binding" />
     <MESSAGE value="Expose environment, version, getApiKey method and toSha256String method are removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Expose environment, version, getApiKey method and toSha256String method are removed" />
+    <MESSAGE value="some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
   </component>
 </project>

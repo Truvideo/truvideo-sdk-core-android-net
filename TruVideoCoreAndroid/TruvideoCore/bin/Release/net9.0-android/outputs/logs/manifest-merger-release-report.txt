@@ -1,0 +1,32 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/apple/Documents/TruVideo/TruVideoAndroidBinding/truvideo-sdk-core-android-net/TruVideoCoreAndroid/TruvideoCore/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/apple/Documents/TruVideo/TruVideoAndroidBinding/truvideo-sdk-core-android-net/TruVideoCoreAndroid/TruvideoCore/src/main/AndroidManifest.xml:2:1-17:12
+	package
+		INJECTED from /Users/apple/Documents/TruVideo/TruVideoAndroidBinding/truvideo-sdk-core-android-net/TruVideoCoreAndroid/TruvideoCore/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/apple/Documents/TruVideo/TruVideoAndroidBinding/truvideo-sdk-core-android-net/TruVideoCoreAndroid/TruvideoCore/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /Users/apple/Documents/TruVideo/TruVideoAndroidBinding/truvideo-sdk-core-android-net/TruVideoCoreAndroid/TruvideoCore/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/apple/Documents/TruVideo/TruVideoAndroidBinding/truvideo-sdk-core-android-net/TruVideoCoreAndroid/TruvideoCore/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/apple/Documents/TruVideo/TruVideoAndroidBinding/truvideo-sdk-core-android-net/TruVideoCoreAndroid/TruvideoCore/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/apple/Documents/TruVideo/TruVideoAndroidBinding/truvideo-sdk-core-android-net/TruVideoCoreAndroid/TruvideoCore/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/apple/Documents/TruVideo/TruVideoAndroidBinding/truvideo-sdk-core-android-net/TruVideoCoreAndroid/TruvideoCore/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/apple/Documents/TruVideo/TruVideoAndroidBinding/truvideo-sdk-core-android-net/TruVideoCoreAndroid/TruvideoCore/src/main/AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from /Users/apple/Documents/TruVideo/TruVideoAndroidBinding/truvideo-sdk-core-android-net/TruVideoCoreAndroid/TruvideoCore/src/main/AndroidManifest.xml:7:22-62
+application
+ADDED from /Users/apple/Documents/TruVideo/TruVideoAndroidBinding/truvideo-sdk-core-android-net/TruVideoCoreAndroid/TruvideoCore/src/main/AndroidManifest.xml:8:5-15:19
+uses-sdk
+INJECTED from /Users/apple/Documents/TruVideo/TruVideoAndroidBinding/truvideo-sdk-core-android-net/TruVideoCoreAndroid/TruvideoCore/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/apple/Documents/TruVideo/TruVideoAndroidBinding/truvideo-sdk-core-android-net/TruVideoCoreAndroid/TruvideoCore/src/main/AndroidManifest.xml
+INJECTED from /Users/apple/Documents/TruVideo/TruVideoAndroidBinding/truvideo-sdk-core-android-net/TruVideoCoreAndroid/TruvideoCore/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/apple/Documents/TruVideo/TruVideoAndroidBinding/truvideo-sdk-core-android-net/TruVideoCoreAndroid/TruvideoCore/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/apple/Documents/TruVideo/TruVideoAndroidBinding/truvideo-sdk-core-android-net/TruVideoCoreAndroid/TruvideoCore/src/main/AndroidManifest.xml

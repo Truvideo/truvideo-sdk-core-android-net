@@ -1,31 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <Version>0.0.3</Version>
-        <TargetFramework>net8.0-android</TargetFramework>
+        <Version>0.0.4</Version>
+        <TargetFramework>net9.0-android</TargetFramework>
         <SupportedOSPlatformVersion>24</SupportedOSPlatformVersion>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <IsBindingProject>true</IsBindingProject>
         <RepositoryUrl>https://github.com/Truvideo/truvideo-sdk-core-android-net</RepositoryUrl>
-        <!--
-          Enable trim analyzers for Android class libraries.
-          To learn more, see: https://learn.microsoft.com/dotnet/core/deploying/trimming/prepare-libraries-for-trimming
-        -->
         <IsTrimmable>true</IsTrimmable>
-        <!--
-          NOTE: you can simply add .aar or .jar files in this directory to be included in the project.
-          To learn more, see: https://learn.microsoft.com/dotnet/maui/migration/android-binding-projects
-        -->
-        <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">24.0</SupportedOSPlatformVersion>
     </PropertyGroup>
 
+    <!-- Gradle project reference -->
     <ItemGroup>
-        <NLIGradleProjectReference Include="../TruVideoCoreAndroid" >
+        <NLIGradleProjectReference Include="../TruVideoCoreAndroid">
             <ModuleName>TruvideoCore</ModuleName>
-            <!-- Metadata applicable to @(AndroidLibrary) will be used if set, otherwise the following defaults will be used:
-            <Bind>true</Bind>
-            <Pack>true</Pack>
-            -->
         </NLIGradleProjectReference>
     </ItemGroup>
 
@@ -34,7 +22,7 @@
         <PackageReference Include="CommunityToolkit.Maui.NativeLibraryInterop.BuildTasks" Version="0.0.1-pre1" />
         <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
-        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="$(MauiVersion)" />
         <!-- KotlinX Serialization Core & JSON -->
         <PackageReference Include="Xamarin.KotlinX.Serialization.Core.Jvm" Version="1.7.3.2" />
         <PackageReference Include="Xamarin.KotlinX.Serialization.Json.Jvm" Version="1.6.0.1" />
@@ -71,3 +59,4 @@
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/aws-android-sdk-s3-2.44.0.aar" Bind="false" Visible="false" />
     </ItemGroup>
 </Project>
+
