@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.truvideo.core.TruvideoCore-mergeReleaseResources-45:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "com.truvideo.core.TruvideoCore-release-34:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/8.10.2/transforms/98a4b67a89aa4071d7380077778a05b6/transformed/material-1.12.0/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "com.truvideo.core.TruvideoCore-release-47:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "com.truvideo.core.TruvideoCore-mergeReleaseResources-32:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/8.10.2/transforms/98a4b67a89aa4071d7380077778a05b6/transformed/material-1.12.0/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",

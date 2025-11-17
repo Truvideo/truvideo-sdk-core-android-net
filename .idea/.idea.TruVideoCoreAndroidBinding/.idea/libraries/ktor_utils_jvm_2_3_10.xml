@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="ktor-utils-jvm-2.3.10">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/libs/ktor-utils-jvm-2.3.10.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

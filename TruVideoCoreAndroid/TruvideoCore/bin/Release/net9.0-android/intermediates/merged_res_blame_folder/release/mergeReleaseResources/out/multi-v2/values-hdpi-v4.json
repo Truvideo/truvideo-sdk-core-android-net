@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.truvideo.core.TruvideoCore-release-47:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "com.truvideo.core.TruvideoCore-release-34:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/8.10.2/transforms/b4ffa84ee46bd61f109520589b58bc55/transformed/appcompat-1.7.0/res/values-hdpi-v4/values-hdpi-v4.xml",
@@ -17,7 +17,7 @@
             ]
         },
         {
-            "outputFile": "com.truvideo.core.TruvideoCore-mergeReleaseResources-45:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "com.truvideo.core.TruvideoCore-mergeReleaseResources-32:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/8.10.2/transforms/b4ffa84ee46bd61f109520589b58bc55/transformed/appcompat-1.7.0/res/values-hdpi-v4/values-hdpi-v4.xml",

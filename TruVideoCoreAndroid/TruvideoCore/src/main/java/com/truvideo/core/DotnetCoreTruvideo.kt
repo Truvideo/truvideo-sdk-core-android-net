@@ -37,7 +37,7 @@ class DotnetCoreTruvideo {
 
         @JvmStatic
         fun initAppInitializer(context: Context, callback: CoreCallback) {
-            GlobalScope.launch(Dispatchers.Main) {
+            GlobalScope.launch(Dispatchers.IO) {
                 AppInitializer.getInstance(context.applicationContext)
                     .initializeComponent(TruvideoSdkInitializer::class.java)
                 callback.onSuccess("Init success")

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="kotlinx-serialization-core-jvm-1.6.0">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/libs/kotlinx-serialization-core-jvm-1.6.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

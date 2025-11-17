@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <Version>0.0.4</Version>
+        <Version>1.0.0</Version>
         <TargetFramework>net9.0-android</TargetFramework>
         <SupportedOSPlatformVersion>24</SupportedOSPlatformVersion>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <IsBindingProject>true</IsBindingProject>
         <RepositoryUrl>https://github.com/Truvideo/truvideo-sdk-core-android-net</RepositoryUrl>
-        <IsTrimmable>true</IsTrimmable>
+        <IsTrimmable>false</IsTrimmable> <!-- Avoids IL2026 ExportAttribute trimming warnings -->
     </PropertyGroup>
 
     <!-- Gradle project reference -->
@@ -20,23 +20,25 @@
     <!-- NuGet References -->
     <ItemGroup>
         <PackageReference Include="CommunityToolkit.Maui.NativeLibraryInterop.BuildTasks" Version="0.0.1-pre1" />
+        <!-- Explicit versions (adjust if your MAUI workload uses a different version) -->
         <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="$(MauiVersion)" />
         <!-- KotlinX Serialization Core & JSON -->
         <PackageReference Include="Xamarin.KotlinX.Serialization.Core.Jvm" Version="1.7.3.2" />
-        <PackageReference Include="Xamarin.KotlinX.Serialization.Json.Jvm" Version="1.6.0.1" />
+        <PackageReference Include="Xamarin.KotlinX.Serialization.Json.Jvm" Version="1.7.3.2" />
     </ItemGroup>
 
-    <!-- Android Libraries (AARs & JARs) -->
+    <!-- Android AAR/JAR references -->
     <ItemGroup Condition="$(TargetFramework.Contains('android'))">
-        <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/truvideo-sdk-android-core-76.2.5.aar" Bind="false" Visible="false" />
-        <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/shared-release.aar" Bind="false" Visible="false" />
+        <!-- Core SDK -->
+        <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/truvideo-sdk-android-core-78.1.1.aar" Bind="false" Visible="false" />
+        <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/truvideo-sdk-android-common-0.0.78.aar" Bind="false" Visible="false" />
+        <!-- Kotlin / Ktor JARs -->
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/kaverit-jvm-2.8.1.jar" Bind="false" Visible="false" />
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/kodein-di-jvm-7.21.1.jar" Bind="false" Visible="false" />
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/multiplatform-settings-debug.aar" Bind="false" Visible="false" />
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/slf4j-android-1.7.36.jar" Bind="false" Visible="false" />
-        <!-- Removed kotlinx-serialization-core-jvm-1.6.0.jar & kotlinx-serialization-json-jvm-1.6.0.jar -->
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/ktor-client-okhttp-jvm-2.3.10.jar" Bind="false" Visible="false" />
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/ktor-client-logging-jvm-2.3.2.jar" Bind="false" Visible="false" />
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/ktor-events-jvm-2.3.10.jar" Bind="false" Visible="false" />
@@ -45,10 +47,12 @@
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/ktor-serialization-jvm-2.3.10.jar" Bind="false" Visible="false" />
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/ktor-utils-jvm-2.3.10.jar" Bind="false" Visible="false" />
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/ktor-client-core-jvm-2.3.10.jar" Bind="false" Visible="false" />
+        <!-- Other dependencies -->
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/slf4j-api-1.7.36.jar" Bind="false" Visible="false" />
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/kotlinx-datetime-jvm-0.4.1.jar" Bind="false" Visible="false" />
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/okhttp-4.12.0.jar" Bind="false" Visible="false" />
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/okio-jvm-3.7.0.jar" Bind="false" Visible="false" />
+        <!-- AWS SDKs -->
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/aws-android-sdk-auth-core-2.16.6.aar" Bind="false" Visible="false" />
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/aws-android-sdk-cognito-2.16.6.jar" Bind="false" Visible="false" />
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/aws-android-sdk-cognitoidentityprovider-2.16.6.jar" Bind="false" Visible="false" />
@@ -59,4 +63,3 @@
         <AndroidLibrary Include="../TruVideoCoreAndroid/TruvideoCore/libs/aws-android-sdk-s3-2.44.0.aar" Bind="false" Visible="false" />
     </ItemGroup>
 </Project>
-
