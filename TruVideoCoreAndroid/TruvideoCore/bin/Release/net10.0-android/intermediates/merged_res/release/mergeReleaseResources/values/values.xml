@@ -222,6 +222,8 @@
         <enum name="aligned" value="2"/>
         <enum name="chain2" value="3"/>
     </attr>
+    <attr format="string" name="fontProviderSystemFontFamily"/>
+    <attr format="string" name="fontVariationSettings"/>
     <attr format="integer" name="framePosition"/>
     <attr format="boolean" name="guidelineUseRtl"/>
     <attr format="reference" name="headerLayout"/>
@@ -1849,11 +1851,13 @@
     <item name="tag_accessibility_clickable_spans" type="id"/>
     <item name="tag_accessibility_heading" type="id"/>
     <item name="tag_accessibility_pane_title" type="id"/>
+    <item name="tag_compat_insets_dispatch" type="id"/>
     <item name="tag_on_apply_window_listener" type="id"/>
     <item name="tag_on_receive_content_listener" type="id"/>
     <item name="tag_on_receive_content_mime_types" type="id"/>
     <item name="tag_screen_reader_focusable" type="id"/>
     <item name="tag_state_description" type="id"/>
+    <item name="tag_system_bar_state_monitor" type="id"/>
     <item name="tag_transition_group" type="id"/>
     <item name="tag_unhandled_key_event_manager" type="id"/>
     <item name="tag_unhandled_key_listeners" type="id"/>
@@ -1879,6 +1883,7 @@
     <item name="up" type="id"/>
     <item name="view_offset_helper" type="id"/>
     <item name="view_transition" type="id"/>
+    <id name="view_tree_disjoint_parent"/>
     <id name="view_tree_lifecycle_owner"/>
     <id name="view_tree_on_back_pressed_dispatcher_owner"/>
     <id name="view_tree_saved_state_registry_owner"/>
@@ -11473,7 +11478,7 @@
             <enum name="forever" value="-1"/>
         </attr>
         
-        <attr format="string" name="fontProviderSystemFontFamily"/>
+        <attr name="fontProviderSystemFontFamily"/>
     </declare-styleable>
     <declare-styleable name="FontFamilyFont">
         
@@ -11486,7 +11491,7 @@
         
         <attr format="integer" name="fontWeight"/>
         
-        <attr format="string" name="fontVariationSettings"/>
+        <attr name="fontVariationSettings"/>
         
         <attr format="integer" name="ttcIndex"/>
         
@@ -11495,6 +11500,14 @@
         <attr name="android:fontWeight"/>
         <attr name="android:fontVariationSettings"/>
         <attr name="android:ttcIndex"/>
+    </declare-styleable>
+    <declare-styleable name="FontFamilyProviderFallback">
+        
+        <attr name="fontProviderQuery"/>
+        
+        <attr name="fontProviderSystemFontFamily"/>
+        
+        <attr name="fontVariationSettings"/>
     </declare-styleable>
     <declare-styleable name="ForegroundLinearLayout">
     <attr name="android:foreground"/>

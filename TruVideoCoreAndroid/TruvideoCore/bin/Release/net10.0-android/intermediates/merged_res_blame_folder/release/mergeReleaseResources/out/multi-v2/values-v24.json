@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.truvideo.core.TruvideoCore-mergeReleaseResources-32:/values-v24/values-v24.xml",
+            "outputFile": "com.truvideo.core.TruvideoCore-mergeReleaseResources-34:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/8.10.2/transforms/b4ffa84ee46bd61f109520589b58bc55/transformed/appcompat-1.7.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/apple/.gradle/caches/8.12/transforms/f56e0d23aa42b6bb03a6a67bf5b4c4a5/transformed/appcompat-1.7.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/apple/.gradle/caches/8.10.2/transforms/98a4b67a89aa4071d7380077778a05b6/transformed/material-1.12.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/apple/.gradle/caches/8.12/transforms/531f111ff1237e3d78f02072c7ea3b9b/transformed/material-1.12.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -35,10 +35,10 @@
             ]
         },
         {
-            "outputFile": "com.truvideo.core.TruvideoCore-release-34:/values-v24/values-v24.xml",
+            "outputFile": "com.truvideo.core.TruvideoCore-release-36:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/8.10.2/transforms/b4ffa84ee46bd61f109520589b58bc55/transformed/appcompat-1.7.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/apple/.gradle/caches/8.12/transforms/f56e0d23aa42b6bb03a6a67bf5b4c4a5/transformed/appcompat-1.7.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -48,7 +48,7 @@
                     }
                 },
                 {
-                    "source": "/Users/apple/.gradle/caches/8.10.2/transforms/98a4b67a89aa4071d7380077778a05b6/transformed/material-1.12.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/apple/.gradle/caches/8.12/transforms/531f111ff1237e3d78f02072c7ea3b9b/transformed/material-1.12.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",

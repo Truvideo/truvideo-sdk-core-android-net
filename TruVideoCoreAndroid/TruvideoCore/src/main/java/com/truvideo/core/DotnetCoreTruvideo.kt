@@ -5,14 +5,11 @@ import androidx.startup.AppInitializer
 import com.truvideo.sdk.core.TruvideoSdk
 import com.truvideo.sdk.core.TruvideoSdkInitializer
 import com.truvideo.sdk.core.interfaces.TruvideoSdkCallback
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import truvideo.sdk.common.exceptions.TruvideoSdkException
-import java.security.InvalidKeyException
-import java.security.NoSuchAlgorithmException
-import javax.crypto.Mac
-import javax.crypto.spec.SecretKeySpec
 
 class DotnetCoreTruvideo {
     companion object {
@@ -37,7 +34,7 @@ class DotnetCoreTruvideo {
 
         @JvmStatic
         fun initAppInitializer(context: Context, callback: CoreCallback) {
-            GlobalScope.launch(Dispatchers.IO) {
+             CoroutineScope(Dispatchers.IO).launch {
                 AppInitializer.getInstance(context.applicationContext)
                     .initializeComponent(TruvideoSdkInitializer::class.java)
                 callback.onSuccess("Init success")
@@ -106,6 +103,12 @@ class DotnetCoreTruvideo {
         fun clearAuthentication(callback: CoreCallback) {
             val clearAuthentication = TruvideoSdk.clearAuthentication()
             callback.onSuccess("Authentication Clear")
+        }
+
+        @JvmStatic
+        fun restoreAuthentication(callback: CoreCallback) {
+            val restoreAuthentication = TruvideoSdk.restoreAuthentication()
+            callback.onSuccess("restoreAuthentication")
         }
     }
 
