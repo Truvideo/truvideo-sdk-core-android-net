@@ -3,9 +3,8 @@ package com.truvideo.core
 import android.content.Context
 import androidx.startup.AppInitializer
 import com.truvideo.sdk.core.TruvideoSdk
-import com.truvideo.sdk.core.TruvideoSdkInitializer
+//import com.truvideo.sdk.core.TruvideoSdkInitializer
 import com.truvideo.sdk.core.interfaces.TruvideoSdkCallback
-import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
@@ -34,9 +33,9 @@ class DotnetCoreTruvideo {
 
         @JvmStatic
         fun initAppInitializer(context: Context, callback: CoreCallback) {
-             CoroutineScope(Dispatchers.IO).launch {
-                AppInitializer.getInstance(context.applicationContext)
-                    .initializeComponent(TruvideoSdkInitializer::class.java)
+            GlobalScope.launch(Dispatchers.IO) {
+               // AppInitializer.getInstance(context.applicationContext)
+                   // .initializeComponent(TruvideoSdkInitializer::class.java)
                 callback.onSuccess("Init success")
             }
         }

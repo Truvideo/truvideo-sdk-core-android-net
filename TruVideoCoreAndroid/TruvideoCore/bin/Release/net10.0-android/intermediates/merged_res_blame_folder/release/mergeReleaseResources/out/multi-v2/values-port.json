@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.truvideo.core.TruvideoCore-release-36:/values-port/values-port.xml",
+            "outputFile": "com.truvideo.core.TruvideoCore-mergeReleaseResources-37:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/8.12/transforms/f56e0d23aa42b6bb03a6a67bf5b4c4a5/transformed/appcompat-1.7.0/res/values-port/values-port.xml",
+                    "source": "/Users/apple/.gradle/caches/8.12/transforms/57f070335d98ce9fb83786bef82af2d3/transformed/appcompat-1.7.1/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "com.truvideo.core.TruvideoCore-mergeReleaseResources-34:/values-port/values-port.xml",
+            "outputFile": "com.truvideo.core.TruvideoCore-release-39:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/8.12/transforms/f56e0d23aa42b6bb03a6a67bf5b4c4a5/transformed/appcompat-1.7.0/res/values-port/values-port.xml",
+                    "source": "/Users/apple/.gradle/caches/8.12/transforms/57f070335d98ce9fb83786bef82af2d3/transformed/appcompat-1.7.1/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

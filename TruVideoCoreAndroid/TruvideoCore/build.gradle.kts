@@ -52,9 +52,9 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.truvideo.sdk.android.core)
-//    configurations["copyDependencies"].dependencies.add(
-//        project.dependencies.create("com.github.Truvideo:truvideo-sdk-android-core:79.1.1")
-//    )
+   /* configurations["copyDependencies"].dependencies.add(
+        project.dependencies.create("com.github.Truvideo:truvideo-sdk-android-core:79.1.3")
+    )*/
 
 
 }

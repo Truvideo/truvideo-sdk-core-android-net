@@ -1,8 +1,18 @@
 {
     "logs": [
         {
-            "outputFile": "com.truvideo.core.TruvideoCore-mergeReleaseResources-34:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "com.truvideo.core.TruvideoCore-release-39:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
+                {
+                    "source": "/Users/apple/.gradle/caches/8.12/transforms/57f070335d98ce9fb83786bef82af2d3/transformed/appcompat-1.7.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
                 {
                     "source": "/Users/apple/.gradle/caches/8.12/transforms/531f111ff1237e3d78f02072c7ea3b9b/transformed/material-1.12.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
@@ -20,23 +30,23 @@
                         "endLines": "10,11,12,13,14,15,17,18,19,20,21,25",
                         "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
                         "endOffsets": "666,736,807,879,937,995,1104,1168,1224,1283,1346,1518"
-                    }
-                },
-                {
-                    "source": "/Users/apple/.gradle/caches/8.12/transforms/f56e0d23aa42b6bb03a6a67bf5b4c4a5/transformed/appcompat-1.7.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
                     }
                 }
             ]
         },
         {
-            "outputFile": "com.truvideo.core.TruvideoCore-release-36:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "com.truvideo.core.TruvideoCore-mergeReleaseResources-37:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
+                {
+                    "source": "/Users/apple/.gradle/caches/8.12/transforms/57f070335d98ce9fb83786bef82af2d3/transformed/appcompat-1.7.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
                 {
                     "source": "/Users/apple/.gradle/caches/8.12/transforms/531f111ff1237e3d78f02072c7ea3b9b/transformed/material-1.12.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
@@ -54,16 +64,6 @@
                         "endLines": "10,11,12,13,14,15,17,18,19,20,21,25",
                         "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
                         "endOffsets": "666,736,807,879,937,995,1104,1168,1224,1283,1346,1518"
-                    }
-                },
-                {
-                    "source": "/Users/apple/.gradle/caches/8.12/transforms/f56e0d23aa42b6bb03a6a67bf5b4c4a5/transformed/appcompat-1.7.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
                     }
                 }
             ]

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.truvideo.core.TruvideoCore-release-36:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.truvideo.core.TruvideoCore-release-39:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/8.12/transforms/531f111ff1237e3d78f02072c7ea3b9b/transformed/material-1.12.0/res/values-small-v4/values-small-v4.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "com.truvideo.core.TruvideoCore-mergeReleaseResources-34:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.truvideo.core.TruvideoCore-mergeReleaseResources-37:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/8.12/transforms/531f111ff1237e3d78f02072c7ea3b9b/transformed/material-1.12.0/res/values-small-v4/values-small-v4.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.truvideo.core.TruvideoCore-release-36:/values-lo/values-lo.xml",
+            "outputFile": "com.truvideo.core.TruvideoCore-release-39:/values-lo/values-lo.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/8.12/transforms/531f111ff1237e3d78f02072c7ea3b9b/transformed/material-1.12.0/res/values-lo/values-lo.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/apple/.gradle/caches/8.12/transforms/f56e0d23aa42b6bb03a6a67bf5b4c4a5/transformed/appcompat-1.7.0/res/values-lo/values-lo.xml",
+                    "source": "/Users/apple/.gradle/caches/8.12/transforms/57f070335d98ce9fb83786bef82af2d3/transformed/appcompat-1.7.1/res/values-lo/values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -59,7 +59,7 @@
             ]
         },
         {
-            "outputFile": "com.truvideo.core.TruvideoCore-mergeReleaseResources-34:/values-lo/values-lo.xml",
+            "outputFile": "com.truvideo.core.TruvideoCore-mergeReleaseResources-37:/values-lo/values-lo.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/8.12/transforms/531f111ff1237e3d78f02072c7ea3b9b/transformed/material-1.12.0/res/values-lo/values-lo.xml",
@@ -81,7 +81,7 @@
                     }
                 },
                 {
-                    "source": "/Users/apple/.gradle/caches/8.12/transforms/f56e0d23aa42b6bb03a6a67bf5b4c4a5/transformed/appcompat-1.7.0/res/values-lo/values-lo.xml",
+                    "source": "/Users/apple/.gradle/caches/8.12/transforms/57f070335d98ce9fb83786bef82af2d3/transformed/appcompat-1.7.1/res/values-lo/values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
