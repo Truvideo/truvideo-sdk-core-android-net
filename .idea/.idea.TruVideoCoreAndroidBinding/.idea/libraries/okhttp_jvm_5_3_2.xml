@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="okhttp-jvm-5.3.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/libs/okhttp-jvm-5.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

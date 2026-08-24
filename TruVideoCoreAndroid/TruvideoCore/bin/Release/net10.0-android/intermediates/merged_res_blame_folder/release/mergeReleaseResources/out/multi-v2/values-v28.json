@@ -4,7 +4,7 @@
             "outputFile": "com.truvideo.core.TruvideoCore-mergeReleaseResources-37:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/8.12/transforms/531f111ff1237e3d78f02072c7ea3b9b/transformed/material-1.12.0/res/values-v28/values-v28.xml",
+                    "source": "/Users/apple/.gradle/caches/8.10.2/transforms/9c5903cff5c42e800914e1948f3b9e7c/transformed/material-1.12.0/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/apple/.gradle/caches/8.12/transforms/57f070335d98ce9fb83786bef82af2d3/transformed/appcompat-1.7.1/res/values-v28/values-v28.xml",
+                    "source": "/Users/apple/.gradle/caches/8.10.2/transforms/c671d4de188e765c2fc796ece45d8b38/transformed/appcompat-1.7.1/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -47,7 +47,7 @@
             "outputFile": "com.truvideo.core.TruvideoCore-release-39:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/8.12/transforms/531f111ff1237e3d78f02072c7ea3b9b/transformed/material-1.12.0/res/values-v28/values-v28.xml",
+                    "source": "/Users/apple/.gradle/caches/8.10.2/transforms/9c5903cff5c42e800914e1948f3b9e7c/transformed/material-1.12.0/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -66,7 +66,7 @@
                     }
                 },
                 {
-                    "source": "/Users/apple/.gradle/caches/8.12/transforms/57f070335d98ce9fb83786bef82af2d3/transformed/appcompat-1.7.1/res/values-v28/values-v28.xml",
+                    "source": "/Users/apple/.gradle/caches/8.10.2/transforms/c671d4de188e765c2fc796ece45d8b38/transformed/appcompat-1.7.1/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ktor-client-content-negotiation-jvm-3.4.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/libs/ktor-client-content-negotiation-jvm-3.4.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="okio-jvm-3.16.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/libs/okio-jvm-3.16.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

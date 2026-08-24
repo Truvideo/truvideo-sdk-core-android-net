@@ -3,12 +3,13 @@ package com.truvideo.core
 import android.content.Context
 import androidx.startup.AppInitializer
 import com.truvideo.sdk.core.TruvideoSdk
-//import com.truvideo.sdk.core.TruvideoSdkInitializer
+import com.truvideo.sdk.core.initializer.TruvideoSdkInitializer
 import com.truvideo.sdk.core.interfaces.TruvideoSdkCallback
+import com.truvideo.sdk.model.exceptions.TruvideoSdkException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
-import truvideo.sdk.common.exceptions.TruvideoSdkException
+
 
 class DotnetCoreTruvideo {
     companion object {
@@ -25,38 +26,50 @@ class DotnetCoreTruvideo {
             callback.onSuccess("" + version)
         }
 
-        @JvmStatic
+        /*@JvmStatic
         fun getApiKey(callback: CoreCallback) {
             val apiKey = TruvideoSdk.getApiKey()
             callback.onSuccess("" + apiKey)
-        }
+        }*/
 
         @JvmStatic
         fun initAppInitializer(context: Context, callback: CoreCallback) {
             GlobalScope.launch(Dispatchers.IO) {
-               // AppInitializer.getInstance(context.applicationContext)
-                   // .initializeComponent(TruvideoSdkInitializer::class.java)
+                AppInitializer.getInstance(context.applicationContext)
+                    .initializeComponent(TruvideoSdkInitializer::class.java)
                 callback.onSuccess("Init success")
             }
         }
 
+
         @JvmStatic
         fun isAuthenticated(callback: CoreCallback) {
-            val isAuthenticated = TruvideoSdk.isAuthenticated()
-            callback.onSuccess("" + isAuthenticated)
+            try {
+                val isAuthenticated = TruvideoSdk.isAuthenticated
+                callback.onSuccess("" + isAuthenticated)
+            } catch (e: Exception) {
+                callback.onFailure(e.message ?: "Unknown error")
+            }
         }
 
         @JvmStatic
         fun isAuthenticationExpired(callback: CoreCallback) {
-            val isAuthenticationExpired = TruvideoSdk.isAuthenticationExpired()
+            //val isAuthenticationExpired = TruvideoSdk.isAuthenticationExpired()
+            val isAuthenticationExpired = false;
             callback.onSuccess("" + isAuthenticationExpired)
         }
 
+
         @JvmStatic
         fun generatePayload(callback: CoreCallback) {
-            val generatePayload = TruvideoSdk.generatePayload()
-            callback.onSuccess(generatePayload)
+            try {
+                val payload = TruvideoSdk.generatePayload()
+                callback.onSuccess(payload)
+            } catch (e: Exception) {
+                callback.onFailure(e.message ?: "Unknown error")
+            }
         }
+
 
         @JvmStatic
         fun authenticate(
@@ -84,7 +97,9 @@ class DotnetCoreTruvideo {
             )
         }
 
-        @JvmStatic
+
+
+        /*@JvmStatic
         fun initAuthentication(callback: CoreCallback) {
             TruvideoSdk.initAuthentication(callback = object : TruvideoSdkCallback<Unit> {
                 override fun onComplete(result: Unit) {
@@ -95,20 +110,93 @@ class DotnetCoreTruvideo {
                     callback.onFailure(exception.toString())
                 }
             })
-        }
+        }*/
 
 
         @JvmStatic
         fun clearAuthentication(callback: CoreCallback) {
-            val clearAuthentication = TruvideoSdk.clearAuthentication()
-            callback.onSuccess("Authentication Clear")
+            try {
+                TruvideoSdk.clearAuthentication(
+                    callback = object : TruvideoSdkCallback<Unit> {
+
+                        override fun onComplete(result: Unit) {
+                            callback.onSuccess("Authentication Cleared")
+                        }
+
+                        override fun onError(
+                            exception: TruvideoSdkException
+                        ) {
+                            callback.onFailure(
+                                exception.message ?: exception.toString()
+                            )
+                        }
+                    }
+                )
+            } catch (e: Exception) {
+                callback.onFailure(e.message ?: "Unknown error")
+            }
         }
 
-        @JvmStatic
+        /*@JvmStatic
         fun restoreAuthentication(callback: CoreCallback) {
             val restoreAuthentication = TruvideoSdk.restoreAuthentication()
             callback.onSuccess("restoreAuthentication")
+        }*/
+
+
+        @JvmStatic
+        fun authenticateOtp(
+            otp: String,
+            callback: CoreCallback
+        ) {
+            try {
+                TruvideoSdk.authenticate(
+                    otp = otp,
+                    callback = object : TruvideoSdkCallback<Unit> {
+
+                        override fun onComplete(result: Unit) {
+                            callback.onSuccess("OTP Authentication Success")
+                        }
+
+                        override fun onError(
+                            exception: TruvideoSdkException
+                        ) {
+                            callback.onFailure(
+                                exception.message ?: exception.toString()
+                            )
+                        }
+                    }
+                )
+            } catch (e: Exception) {
+                callback.onFailure(e.message ?: "Unknown error")
+            }
+        }
+
+
+
+
+        @JvmStatic
+        fun waitAuthReady(callback: CoreCallback) {
+            try {
+                TruvideoSdk.waitAuthReady(
+                    callback = object : TruvideoSdkCallback<Unit> {
+
+                        override fun onComplete(result: Unit) {
+                            callback.onSuccess("Authentication Ready")
+                        }
+
+                        override fun onError(
+                            exception: TruvideoSdkException
+                        ) {
+                            callback.onFailure(
+                                exception.message ?: exception.toString()
+                            )
+                        }
+                    }
+                )
+            } catch (e: Exception) {
+                callback.onFailure(e.message ?: "Unknown error")
+            }
         }
     }
-
 }

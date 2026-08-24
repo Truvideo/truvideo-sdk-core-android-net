@@ -4,7 +4,7 @@
             "outputFile": "com.truvideo.core.TruvideoCore-mergeReleaseResources-37:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/8.12/transforms/57f070335d98ce9fb83786bef82af2d3/transformed/appcompat-1.7.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "/Users/apple/.gradle/caches/8.10.2/transforms/c671d4de188e765c2fc796ece45d8b38/transformed/appcompat-1.7.1/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -19,7 +19,7 @@
             "outputFile": "com.truvideo.core.TruvideoCore-release-39:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/8.12/transforms/57f070335d98ce9fb83786bef82af2d3/transformed/appcompat-1.7.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "/Users/apple/.gradle/caches/8.10.2/transforms/c671d4de188e765c2fc796ece45d8b38/transformed/appcompat-1.7.1/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

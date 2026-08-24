@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="kotlinx-io-core-jvm-0.8.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/libs/kotlinx-io-core-jvm-0.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

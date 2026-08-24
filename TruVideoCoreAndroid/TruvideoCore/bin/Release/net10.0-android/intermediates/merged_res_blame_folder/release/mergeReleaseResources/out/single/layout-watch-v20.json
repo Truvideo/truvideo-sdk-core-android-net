@@ -1,10 +1,10 @@
 [
     {
         "merged": "com.truvideo.core.TruvideoCore-release-39:/layout-watch-v20/abc_alert_dialog_title_material.xml",
-        "source": "com.truvideo.core.TruvideoCore-appcompat-1.7.1-14:/layout-watch-v20/abc_alert_dialog_title_material.xml"
+        "source": "com.truvideo.core.TruvideoCore-appcompat-1.7.1-26:/layout-watch-v20/abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "com.truvideo.core.TruvideoCore-release-39:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
-        "source": "com.truvideo.core.TruvideoCore-appcompat-1.7.1-14:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+        "source": "com.truvideo.core.TruvideoCore-appcompat-1.7.1-26:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
     }
 ]

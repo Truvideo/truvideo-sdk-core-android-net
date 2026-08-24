@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ktor-serialization-jvm-3.4.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TruVideoCoreAndroid/TruvideoCore/libs/ktor-serialization-jvm-3.4.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
